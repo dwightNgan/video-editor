@@ -1,0 +1,39 @@
+.op-bar {
+    flex: 0 0 auto;
+    width: 300px;
+}
+.op-bar__item {
+    height: 60px;
+    transition: color 0.3s;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    &:hover {
+        background-color: #f1f1f1;
+        .op-bar__item__title {
+            color: rgba(0, 0, 0, 1);
+        }
+    }
+}
+.op-bar__item.op-bar__item--ative {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.03);
+    .op-bar__item__title {
+        background-color: #fff;
+        color: rgba(0, 0, 0, 1);
+    }
+}
+
+.op-bar__item__title {
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 60px;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+.op-bar__item__main {
+    padding: 0 10px;
+    > div {
+        padding: 10px 0;
+    }
+}

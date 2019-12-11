@@ -1,0 +1,9 @@
+{
+  "name": "draw-frames",
+  "version": "1.0.0",
+  "description": "draw-frames",
+  "main": "./src/index.js",
+  "author": "dwight",
+  "license": "MIT",
+  "private": true
+}
